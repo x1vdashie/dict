@@ -1,0 +1,10 @@
+meme_dict = {
+    "CREEPY" : "ÜRKÜTÜCÜ",
+    "CRİNGE" : "GÜLÜNÇ",
+    "JK" : "ŞAKA"
+}
+word = input("anlaşılmayan kelime")
+if word in meme_dict.keys():
+    print(meme_dict[word]) 
+else : 
+   print ("kelime yok")
